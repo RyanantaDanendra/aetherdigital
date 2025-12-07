@@ -24,7 +24,7 @@ export default function Services() {
       duration: 0.5,
       x: -30,
       y: 100,
-      opacity: 9,
+      opacity: 0,
       rotation: 30,
       autoAlpha: 0, // fade in from opacity: 0 and visibility: hidden
       stagger: 0.05, // 0.05 seconds between each

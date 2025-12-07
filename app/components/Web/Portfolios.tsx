@@ -76,7 +76,7 @@ export default function () {
   ];
 
   return (
-    <div className="portfolios-container w-screen h-screen">
+    <div className="portfolios-container w-screen min-h-screen">
       <h1 className="portfolios-heading-text text-center text-6xl font-bold mt-10">
         OUR PREVIOUS WORK
       </h1>

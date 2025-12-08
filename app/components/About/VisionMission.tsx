@@ -41,7 +41,7 @@ export default function VisionAndMission() {
         once: true,
       },
     });
-  });
+  }, []);
 
   return (
     <div className="visionandmission-container w-full h-screen bg-white text-black lg:pt-14">

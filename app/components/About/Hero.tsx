@@ -25,7 +25,7 @@ export default function Hero() {
       stagger: 0.05, // 0.05 seconds between each
       repeat: 0,
     });
-  });
+  }, []);
 
   return (
     <div className="about-hero-container w-full h-screen">

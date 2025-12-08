@@ -65,7 +65,7 @@ export default function Divider() {
           ease: "power4.out",
         }
       );
-  });
+  }, []);
 
   return (
     <div className="divider-wrapper w-full h-full">

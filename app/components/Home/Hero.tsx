@@ -41,7 +41,7 @@ export default function Hero() {
         ease: "linear",
         repeat: -1,
       });
-  });
+  }, []);
 
   return (
     <div className="flex min-h-screen items-center justify-center flex-col overflow-hidden whitespace-nowrap relative">

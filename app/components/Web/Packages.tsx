@@ -18,6 +18,69 @@ export default function Packages() {
           </ul>
         </div>
       </div>
+
+      <h2 className="text-3xl ms-5 mt-20">
+        <span className="text-5xl font-bold">2.</span> COMPANY PROFILE
+      </h2>
+      <div className="landingpage-packages flex justify-center">
+        <div className="card w-80 h-120 bg-transparent border-4 border-[#D4AF37] rounded-2xl flex items-center flex-col">
+          <h1 className="text-center text-2xl mt-5">Company Profile</h1>
+          <h1 className="text-4xl font-bold text-center mt-10">
+            Rp. 2.500.000 – Rp. 5.000.000
+          </h1>
+          <ul className="mt-8 ms-5">
+            <li className="list-disc text-xl">3–6 Custom-Designed Pages</li>
+            <li className="list-disc text-xl">
+              Responsive Design (Mobile, Tablet & Desktop)
+            </li>
+            <li className="list-disc text-xl">Basic SEO Optimization</li>
+            <li className="list-disc text-xl">
+              Contact Form with Email Integration
+            </li>
+            <li className="list-disc text-xl">1 Month Free Maintenan</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2 className="text-3xl ms-5 mt-20">
+        <span className="text-5xl font-bold">3.</span> E-COMMERCE
+      </h2>
+      <div className="landingpage-packages flex justify-center">
+        <div className="card w-80 h-120 bg-transparent border-4 border-[#D4AF37] rounded-2xl flex items-center flex-col">
+          <h1 className="text-center text-2xl mt-5">E - Commerce</h1>
+          <h1 className="text-4xl font-bold text-center mt-10">
+            Rp. 5.000.000 – Rp. 10.000.000
+          </h1>
+          <ul className="mt-8 ms-5">
+            <li className="list-disc text-xl">
+              Product, Cart & Order Features
+            </li>
+            <li className="list-disc text-xl">
+              Direct Payment via Payment Gateway
+            </li>
+            <li className="list-disc text-xl">Admin Dashboard</li>
+            <li className="list-disc text-xl">3 Months Free Maintenance</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2 className="text-3xl ms-5 mt-20">
+        <span className="text-5xl font-bold">4.</span> DASHBOARD
+      </h2>
+      <div className="landingpage-packages flex justify-center">
+        <div className="card w-80 h-120 bg-transparent border-4 border-[#D4AF37] rounded-2xl flex items-center flex-col">
+          <h1 className="text-center text-2xl mt-5">Dashboard</h1>
+          <h1 className="text-4xl font-bold text-center mt-10">
+            Rp 2.500.000 – Rp 4.000.000
+          </h1>
+          <ul className="mt-8 ms-5">
+            <li className="list-disc text-xl">5–6 Responsive Pages</li>
+            <li className="list-disc text-xl">Statistics Summary / Charts</li>
+            <li className="list-disc text-xl">Data Management System</li>
+            <li className="list-disc text-xl">2 Months Free Maintenance</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

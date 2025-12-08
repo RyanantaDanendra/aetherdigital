@@ -42,7 +42,7 @@ export default function BrandValues() {
         toggleActions: "play none none reverse",
       },
     });
-  });
+  }, []);
 
   const datas = [
     {

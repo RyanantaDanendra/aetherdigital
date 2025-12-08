@@ -54,7 +54,7 @@ export default function Team() {
         toggleActions: "play none none reverse",
       },
     });
-  });
+  }, []);
 
   return (
     <div className="team-container w-full h-screen">

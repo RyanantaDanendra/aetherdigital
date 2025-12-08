@@ -49,13 +49,13 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="h-[44.8px] flex items-center text-white hover:bg-white hover:text-black">
-              <Link href="" className=" my-auto ms-2">
+              <Link href="/graphicdesign" className=" my-auto ms-2">
                 Graphic Design
               </Link>
             </div>
           </div>
         </div>
-        <Link href="">Contact</Link>
+        <Link href="/contact">Contact</Link>
       </div>
     </nav>
   );

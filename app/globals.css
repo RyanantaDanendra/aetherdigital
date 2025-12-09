@@ -25,6 +25,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .navbar {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 16px;

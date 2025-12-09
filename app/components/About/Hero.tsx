@@ -29,10 +29,10 @@ export default function Hero() {
 
   return (
     <div className="about-hero-container w-full h-screen">
-      <h1 className="heading-text lg:text-[16rem] lg:absolute lg:-top-10">
+      <h1 className="heading-text lg:text-[13rem] md:text-[8rem] md:mt-32 mt-0 lg:absolute lg:-top-40">
         ABOUT US
       </h1>
-      <h2 className="lg:absolute lg:top-72 lg:text-xl lg:ms-3">
+      <h2 className="lg:absolute lg:top-58 lg:text-xl lg:ms-3">
         Building Innovative and Strategic Digital Solutions with Trust, <br />
         Creativity, and a Strong Commitment to Client Growth
       </h2>

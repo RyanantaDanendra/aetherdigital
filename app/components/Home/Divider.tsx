@@ -69,19 +69,21 @@ export default function Divider() {
 
   return (
     <div className="divider-wrapper w-full h-full">
-      <h1 className="divider-text lg:text-[4rem] lg:ms-3 mt-32">
+      <h1 className="divider-text lg:text-[4rem] md:text-[2.5rem] text-[1.2rem] lg:ms-3 lg:mt-32">
         A TRUSTED DIGITAL AGENCY
       </h1>
-      <h1 className="divider-text lg:text-[4rem] lg:ms-20">
+      <h1 className="divider-text lg:text-[4rem] md:text-[2.5rem] text-[1.2rem] lg:ms-20 md:ms-4 ms-2">
         DELIVERING INNOVATIVE, STRATEGIC,
       </h1>
-      <h1 className="divider-text lg:text-[4rem] lg:ms-40">
+      <h1 className="divider-text lg:text-[4rem] md:text-[2.5rem] text-[1.2rem] lg:ms-40 md:ms-32 ms-20">
         MEASURABLE WEBSITES, AND
       </h1>
-      <h1 className="divider-text lg:text-[4rem] lg:ms-12">
+      <h1 className="divider-text lg:text-[4rem] md:text-[2.5rem] text-[1.2rem] lg:ms-12 md:ms-4 ms-2">
         DESIGN SOLUTIONS FOR REAL{" "}
       </h1>
-      <h1 className="divider-text lg:text-[4rem] lg:ms-3">BUSINESS GROWTH </h1>
+      <h1 className="divider-text lg:text-[4rem] md:text-[2.5rem] text-[1.2rem] lg:ms-3">
+        BUSINESS GROWTH{" "}
+      </h1>
     </div>
   );
 }

@@ -45,16 +45,16 @@ export default function Hero() {
 
   return (
     <div className="flex min-h-screen items-center justify-center flex-col overflow-hidden whitespace-nowrap relative">
-      <h1 className="hero-title lg:text-[45rem] text-[25rem] absolute -left-44 font-light">
+      <h1 className="hero-title lg:text-[40rem] md:text-[24rem] text-[18rem] lg:absolute lg:-left-40 font-light ms-400 md:ms-530 lg:ms-0">
         AETHER DIGITAL
       </h1>
       <Image
         src={Logo}
         alt="Logo"
         width={300}
-        className="hero-image absolute -z-10 w-40 lg:w-[300px]"
+        className="hero-image absolute -z-10 w-40 lg:w-[280px]"
       />
-      <p className="absolute bottom-10 left-0 text-xs lg:text-2xl lg:ms-5 text-center lg:text-left">
+      <p className="lg:absolute lg:bottom-3 left-0 text-xs lg:text-xl md:text-2xl lg:ms-5 text-center lg:text-left">
         Aether Digital is a creative digital agency delivering innovative,
         <br />
         functional, and reliable web and graphic design solutions.

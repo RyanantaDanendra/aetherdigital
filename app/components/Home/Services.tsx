@@ -28,11 +28,10 @@ export default function Services() {
       rotation: 30,
       autoAlpha: 0, // fade in from opacity: 0 and visibility: hidden
       stagger: 0.05, // 0.05 seconds between each
-      repeat: 0,
       scrollTrigger: {
         trigger: ".services-container",
         start: "top 30%",
-        toggleActions: "play none none reverse",
+        once: true,
       },
     });
 
@@ -55,13 +54,13 @@ export default function Services() {
   }, []);
 
   return (
-    <div className="services-container w-full h-screen relative">
-      <h1 className="heading-text text-6xl text-center font-bold mt-32">
+    <div className="services-container w-full lg:h-screen h-full relative">
+      <h1 className="heading-text lg:text-6xl md:text-4xl text-2xl text-center font-bold mt-32">
         WHAT WE DO
       </h1>
-      <div className="flex justify-center gap-3 lg:mt-20">
+      <div className="flex justify-center gap-3 lg:mt-20 px-1 lg:px-0 mt-6">
         <div
-          className={`service-card lg:w-100 lg:h-100 bg-black relative`}
+          className={`service-card lg:w-100 lg:h-100 w-60 h-60 relative`}
           onMouseEnter={() => {
             setIsHovered(true);
             gsap.to(overlayRef.current, {
@@ -92,7 +91,7 @@ export default function Services() {
           </div>
         </div>
         <div
-          className="service-card w-100 h-100 bg-black relative"
+          className="service-card lg:w-100 lg:h-100 w-60 h-60 relative"
           onMouseEnter={() => {
             setIsHovered(true);
             gsap.to(designOverlay.current, {
@@ -123,20 +122,20 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <h2 className="text-overlay lg:text-[18rem] -z-12 opacity-30 font-bold -left-56 top-36 absolute whitespace-nowrap">
+      <h2 className="text-overlay lg:text-[18rem] md:text-[8rem] text-[5rem] md:top-24 top-32 -left-12 -z-12 opacity-30 font-bold lg:-left-56 lg:top-36 absolute whitespace-nowrap">
         WHAT WE DO
       </h2>
       <div className="descriotion w-screen flex mt-10">
-        <div className="text lg:w-1/2 pe-12 ps-6 text-xl">
+        <div className="text lg:w-1/2 lg:pe-0 lg:ps-6 ps-2">
           {" "}
-          <p>
+          <p className="text-xs md:text-[1rem] lg:text-2xl">
             We create responsive, powerful, and scalable websites using modern
             technologies to deliver smooth performance across all devices.
           </p>
         </div>
-        <div className="text lg:w-1/2 text-end ps-12 text-xl pe-6">
+        <div className="text lg:w-1/2 text-end lg:ps-0 lg:text-xl lg:pe-6">
           {" "}
-          <p>
+          <p className="text-xs md:text-[1rem] lg:text-2xl">
             We create impactful and visually engaging designs that strengthen
             your brand identity and communicate your message clearly across all
             digital platforms.”

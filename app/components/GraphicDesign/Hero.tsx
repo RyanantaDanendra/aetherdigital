@@ -4,11 +4,12 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
 export default function Hero() {
-  const textRightRef = useRef(null);
-  const textLeftRef = useRef(null);
+  const textRightRef = useRef<HTMLDivElement | null>(null);
+  const textLeftRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const rightElement = textRightRef.current;
+    if (!rightElement) return;
     const rightWidth = rightElement.scrollWidth / 2;
 
     const leftElement = textLeftRef.current;

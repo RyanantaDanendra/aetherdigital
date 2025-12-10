@@ -3,7 +3,7 @@ import WhyImage from "../../../public/Assets/why-image.png";
 
 export default function Why() {
   return (
-    <div className="why-container w-full hscreen overflow-hidden mt-32 lg:mt-0">
+    <div className="why-container w-full hscreen overflow-hidden mt-32 lg:mt-0 pb-32 md:pb-0">
       <h1 className="text-center lg:text-6xl md:text-4xl text-2xl font-bold">
         WHY CHOOSE US?
       </h1>

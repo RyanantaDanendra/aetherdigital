@@ -134,12 +134,14 @@ export default function Packages() {
   ];
 
   return (
-    <div className="packages-container w-screen min-h-screen pt-20 ps-5">
-      <h1 className="text-6xl font-bold ms-5">Choose Your Package</h1>
-      <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">1.</span> LOGO
+    <div className="packages-container w-screen min-h-screen pt-20 md:ps-5">
+      <h1 className="md:text-6xl text-4xl text-center md:text-start font-bold ms-5">
+        Choose Your Package
+      </h1>
+      <h2 className="md:text-3xl text-2xl ms-5 mt-20">
+        <span className="md:text-5xl text-3xl font-bold">1.</span> LOGO
       </h2>
-      <div className="logos-packages flex justify-center gap-10 mt-7">
+      <div className="logos-packages flex justify-center flex-wrap gap-10 mt-7">
         {LogoServices.map((data, index) => (
           <div
             key={index}
@@ -162,8 +164,9 @@ export default function Packages() {
         ))}
       </div>
 
-      <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">2.</span> COMPANY PROFILE
+      <h2 className="md:text-3xl text-2xl ms-5 mt-20">
+        <span className="md:text-5xl text-3xl font-bold">2.</span> COMPANY
+        PROFILE
       </h2>
       <div className="UIUX-packages flex justify-center gap-10 mt-12 flex-wrap px-12">
         {uiUxServices.map((data, index) => (
@@ -186,10 +189,11 @@ export default function Packages() {
         ))}
       </div>
 
-      <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">3.</span>PRODUCT MOCK-UP
+      <h2 className="md:text-3xl text-2xl ms-5 mt-20">
+        <span className="md:text-5xl text-3xl font-bold">3.</span>PRODUCT
+        MOCK-UP
       </h2>
-      <div className="landingpage-packages flex justify-center mt-12 gap-10">
+      <div className="landingpage-packages flex justify-center flex-wrap mt-12 gap-10">
         {mockupPackages.map((data, index) => (
           <div
             key={index}
@@ -210,10 +214,11 @@ export default function Packages() {
         ))}
       </div>
 
-      <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">4.</span> POSTER / BANNER
+      <h2 className="md:text-3xl text-2xl ms-5 mt-20">
+        <span className="md:text-5xl text-3xl font-bold">4.</span> POSTER /
+        BANNER
       </h2>
-      <div className="landingpage-packages flex justify-center mt-12 gap-10">
+      <div className="landingpage-packages flex justify-center flex-wrap mt-12 gap-10">
         {posterPackagtes.map((data, index) => (
           <div
             key={index}
@@ -235,7 +240,7 @@ export default function Packages() {
       </div>
 
       <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">5.</span> 3D DESIGN
+        <span className="md:text-5xl text-3xl font-bold">5.</span> 3D DESIGN
       </h2>
       <div className="landingpage-packages flex justify-center mt-12 gap-10">
         {threeDPackages.map((data, index) => (

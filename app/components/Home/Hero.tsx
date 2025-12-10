@@ -52,7 +52,7 @@ export default function Hero() {
         src={Logo}
         alt="Logo"
         width={300}
-        className="hero-image absolute -z-10 w-40 lg:w-[280px]"
+        className="hero-image absolute -z-10 w-40 lg:w-[220px]"
       />
       <p className="lg:absolute lg:bottom-3 left-0 text-xs lg:text-xl md:text-2xl lg:ms-5 text-center lg:text-left">
         Aether Digital is a creative digital agency delivering innovative,

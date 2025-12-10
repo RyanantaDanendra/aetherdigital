@@ -43,7 +43,7 @@ export default function Hero() {
           WEB - WEB - WEB - WEB - WEB - WEB
         </h1>
       </div>
-      <p className="text-[2rem] text-center px-96 ">
+      <p className="md:text-[2rem] text-[1rem] text-center lg:px-96 md:px-12">
         We provide services for creating landing pages, company profiles,
         dashboards, and e-commerce websites.
       </p>

@@ -70,7 +70,9 @@ export default function Navbar() {
         </>
       ) : (
         <>
-          <Image src={Logo} alt="Logo" className="w-8" />
+          <Link href="/">
+            <Image src={Logo} alt="Logo" className="w-8" />
+          </Link>
           <div className="hamburger-container">
             <svg
               onClick={() => {
@@ -135,7 +137,7 @@ export default function Navbar() {
                 </div>
               ) : null}
               <Link
-                href="/about"
+                href="/contact"
                 className={`w-screen h-[44.8px] flex items-center hover:bg-[#2F2F2F] hover:text-white`}
               >
                 Contact

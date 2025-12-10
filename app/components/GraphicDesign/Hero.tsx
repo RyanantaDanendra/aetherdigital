@@ -43,7 +43,7 @@ export default function Hero() {
           GRAPHIC - GRAPHIC - GRAPHIC - GRAPHIC - GRAPHIC - GRAPHIC -
         </h1>
       </div>
-      <p className="text-[2rem] text-center px-96 ">
+      <p className="lg:text-[2rem] md:text-[2rem] text-[0.8rem] text-center lg:px-96 md:px-12 px-8">
         We provide logo creation, UI/UX design, product mockups, posters,
         banners, and 3D design services.
       </p>

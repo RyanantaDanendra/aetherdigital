@@ -63,18 +63,18 @@ export default function BrandValues() {
   ];
 
   return (
-    <div className="brandvalues-container w-full h-screen bg-white text-black pt-6">
-      <h1 className="brandvalues-heading-text lg:text-6xl font-bold lg:ms-3 lg:mt-10">
+    <div className="brandvalues-container w-full lg:h-screen md:w-full md:pb-32 lg:pb-0 pb-19 bg-white text-black pt-6">
+      <h1 className="brandvalues-heading-text lg:text-6xl md:text-4xl text-3xl text-center md:text-start font-bold lg:ms-3 lg:mt-10">
         OUR CORE VALUES
       </h1>
-      <div className="cards-container grid grid-cols-3 gap-5 lg:mt-32 lg:px-5">
+      <div className="cards-container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:mt-32 md:mt-12 mt-12 lg:px-5">
         {datas.map((data, index) => (
           <div key={index} className="card">
             <h2 className="text-3xl">
               <span className="text-5xl font-bold">{index + 1}. </span>
               {data.title}
             </h2>
-            <p className="text-2xl mt-5">{data.description}</p>
+            <p className="md:text-2xl text-lg mt-5">{data.description}</p>
           </div>
         ))}
       </div>

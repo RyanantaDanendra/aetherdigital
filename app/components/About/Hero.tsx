@@ -28,24 +28,24 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="about-hero-container w-full h-screen">
-      <h1 className="heading-text lg:text-[13rem] md:text-[8rem] md:mt-32 mt-0 lg:absolute lg:-top-40">
+    <div className="about-hero-container w-screen h-screen">
+      <h1 className="heading-text lg:text-[13rem] md:text-[8rem] text-[4rem] md:mt-32 mt-20 lg:absolute lg:-top-40">
         ABOUT US
       </h1>
       <h2 className="lg:absolute lg:top-58 lg:text-xl lg:ms-3">
         Building Innovative and Strategic Digital Solutions with Trust, <br />
         Creativity, and a Strong Commitment to Client Growth
       </h2>
-      <div className="h-full flex justify-between items-end pb-12">
-        <div className="lg:w-1/4 relative">
+      <div className="h-full flex justify-between lg:items-end md:items-center items-center pb-12">
+        <div className="lg:w-1/4 md:w-2/4 w-2/4 relative">
           <Image
             src={AboutHeroImage}
             alt="About Image"
-            className="object-cover w-56 lg:absolute lg:-top-44"
+            className="object-cover md:w-56 w-32 lg:absolute lg:-top-44"
           />
         </div>
-        <div className="lg:w-3/4 pe-4">
-          <p className="text-end text-2xl">
+        <div className="lg:w-3/4 md:w-2/4 w-2/4 pe-4">
+          <p className="text-end lg:text-2xl md:text-[1rem] text-[0.5rem]">
             Aether Digital is a creative digital agency specializing in the
             creation of digital products, particularly websites and graphic
             design. Aether Digital's mission is to bridge the gap between

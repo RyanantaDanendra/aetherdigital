@@ -1,11 +1,13 @@
 export default function Packages() {
   return (
     <div className="packages-container w-screen min-h-screen pt-20">
-      <h1 className="text-6xl font-bold ms-5">Choose Your Package</h1>
-      <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">1.</span> LANDING PAGE
+      <h1 className="md:text-6xl text-2xl text-center md:text-center font-bold md:ms-5 ms-0">
+        Choose Your Package
+      </h1>
+      <h2 className="md:text-3xl text-2xl md:ms-5 ms-2 mt-20">
+        <span className="md:text-5xl text-3xl font-bold">1.</span> LANDING PAGE
       </h2>
-      <div className="landingpage-packages flex justify-center">
+      <div className="landingpage-packages flex justify-center md:mt-12 mt-5">
         <div className="card w-80 h-120 bg-transparent border-4 border-[#D4AF37] rounded-2xl flex items-center flex-col">
           <h1 className="text-center text-2xl mt-5">Landing Page</h1>
           <h1 className="text-4xl font-bold text-center mt-10">
@@ -19,10 +21,11 @@ export default function Packages() {
         </div>
       </div>
 
-      <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">2.</span> COMPANY PROFILE
+      <h2 className="md:text-3xl text-2xl ms-2 md:ms-5 mt-20">
+        <span className="md:text-5xl text-3xl font-bold">2.</span> COMPANY
+        PROFILE
       </h2>
-      <div className="landingpage-packages flex justify-center">
+      <div className="companyprofile-packages flex justify-center md:mt-12 mt-5">
         <div className="card w-80 h-120 bg-transparent border-4 border-[#D4AF37] rounded-2xl flex items-center flex-col">
           <h1 className="text-center text-2xl mt-5">Company Profile</h1>
           <h1 className="text-4xl font-bold text-center mt-10">
@@ -42,10 +45,10 @@ export default function Packages() {
         </div>
       </div>
 
-      <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">3.</span> E-COMMERCE
+      <h2 className="md:text-3xl md:ms-5 text-2xl ms-2 mt-20">
+        <span className="md:text-5xl text-3xl font-bold">3.</span> E-COMMERCE
       </h2>
-      <div className="landingpage-packages flex justify-center">
+      <div className="ecommerce-packages flex justify-center md:mt-12 mt-5">
         <div className="card w-80 h-120 bg-transparent border-4 border-[#D4AF37] rounded-2xl flex items-center flex-col">
           <h1 className="text-center text-2xl mt-5">E - Commerce</h1>
           <h1 className="text-4xl font-bold text-center mt-10">
@@ -64,10 +67,10 @@ export default function Packages() {
         </div>
       </div>
 
-      <h2 className="text-3xl ms-5 mt-20">
-        <span className="text-5xl font-bold">4.</span> DASHBOARD
+      <h2 className="md:text-3xl text-2xl ms-2 md:ms-5 mt-20">
+        <span className="md:text-5xl text-3xl font-bold">4.</span> DASHBOARD
       </h2>
-      <div className="landingpage-packages flex justify-center">
+      <div className="dashboard-packages flex justify-center md:mt-12 mt-5">
         <div className="card w-80 h-120 bg-transparent border-4 border-[#D4AF37] rounded-2xl flex items-center flex-col">
           <h1 className="text-center text-2xl mt-5">Dashboard</h1>
           <h1 className="text-4xl font-bold text-center mt-10">

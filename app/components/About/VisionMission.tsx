@@ -44,18 +44,18 @@ export default function VisionAndMission() {
   }, []);
 
   return (
-    <div className="visionandmission-container w-full h-screen bg-white text-black lg:pt-14">
-      <h1 className="visionandmission-heading-text text-6xl lg:text-center font-bold">
+    <div className="visionandmission-container w-full lg:min-h-screen md:h-full h-full bg-white text-black lg:pt-14 md:pt-32 pt-12 md:pb-32 pb-12">
+      <h1 className="visionandmission-heading-text md:text-6xl text-3xl text-center font-bold">
         VISION AND MISSION
       </h1>
-      <div className="flex justify-center h-96 gap-12 lg:mt-32">
-        <div className="flex flex-col justify-between lg:w-72 lg:h-120">
-          <h1 className="text-5xl font-bold">VISION</h1>
+      <div className="flex flex-col md:flex-row justify-center md:h-96 min-h-screen gap-12 md:mt-32 mt-12">
+        <div className="flex flex-col justify-between lg:w-72 md:h-120">
+          <h1 className="md:text-5xl text-2xl font-bold">VISION</h1>
           <p className="text-[1.3rem]">
             Becoming a trusted digital agency company that always delivers
             maximum results.
           </p>
-          <div className="w-72 h-44">
+          <div className="w-72 h-44 md:mt-0 mt-12">
             <Image
               src={VisionAndMissionImage}
               alt="Vision And Mission Image"
@@ -64,8 +64,8 @@ export default function VisionAndMission() {
             />
           </div>
         </div>
-        <div className="flex flex-col justify-between lg:w-72 lg:h-120">
-          <ul className="text-[1.3rem] list-disc">
+        <div className="flex md:flex-col flex-col-reverse justify-between lg:w-72 md:h-120 md:mt-0 mt-12">
+          <ul className="text-[1.3rem] list-disc md:mt-0 mt-12 ms-7 md:ms-0">
             <li>
               Providing innovative and results-oriented digital services with
               measurable and effective strategies.

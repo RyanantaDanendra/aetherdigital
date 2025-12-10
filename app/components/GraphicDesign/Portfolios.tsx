@@ -108,18 +108,18 @@ export default function Portfolios() {
 
   return (
     <div className="portfolios-container w-screen min-h-screen">
-      <h1 className="portfolios-heading-text text-center text-6xl font-bold mt-10">
+      <h1 className="portfolios-heading-text text-center md:text-6xl text-4xl font-bold mt-10">
         OUR PREVIOUS WORK
       </h1>
-      <div className="datas-container grid grid-cols-8 gap-7 px-12 mt-12">
+      <div className="datas-container lg:grid lg:grid-cols-8 flex flex-wrap justify-center gap-7 px-12 mt-12">
         {datas.map((data, index) => (
           <div
-            className={`data-image w-full h-64 bg-white col-span-${data.span} `}
+            className={`data-image lg:w-full w-56 h-64 bg-white lg:col-span-${data.span} `}
           >
             <Image
               src={data.image}
               alt="Image 1"
-              className=" w-full h-full object-fit object-center"
+              className=" w-full h-full lg:object-fit md:object-cover object-center"
             />
           </div>
         ))}

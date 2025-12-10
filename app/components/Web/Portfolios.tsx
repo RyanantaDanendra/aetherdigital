@@ -77,15 +77,15 @@ export default function () {
 
   return (
     <div className="portfolios-container w-screen min-h-screen">
-      <h1 className="portfolios-heading-text text-center text-6xl font-bold mt-10">
+      <h1 className="portfolios-heading-text text-center md:text-6xl text-3xl font-bold mt-10">
         OUR PREVIOUS WORK
       </h1>
       <div className="cards-container mt-12 overflow-hidden">
         <hr />
         {datas.map((data, index) => (
           <>
-            <div className="portfolios-card grid grid-cols-12 h-56 gap-10 px-12 mb-2 mt-2">
-              <div className="image-container col-span-4 h-56 w-96">
+            <div className="portfolios-card grid md:grid-cols-12 grid-cols-1 lg:h-56 h-full gap-10 px-12 mb-2 mt-2">
+              <div className="image-container md:col-span-4 col-span-8 h-56 lg:w-96 md:w-full">
                 <Image
                   src={data.image}
                   alt={data.title}
@@ -94,7 +94,7 @@ export default function () {
               </div>
               <div className="col-span-8">
                 <h1 className="text-3xl font-bold">{data.title}</h1>
-                <p className="text-xl">{data.description}</p>
+                <p className="lg:text-xl md:text-lg">{data.description}</p>
               </div>
             </div>
             <hr />

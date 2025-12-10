@@ -5,7 +5,7 @@ import Team from "../components/About/Team";
 
 export default function About() {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full overflow-x-hidden">
       <Hero />
       <BrandValues />
       <Team />

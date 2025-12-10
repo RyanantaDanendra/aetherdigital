@@ -29,10 +29,10 @@ export default function Testimonials() {
 
   return (
     <div className="testimonials-container w-screen h-screen">
-      <h1 className="mt-20 text-center text-6xl font-bold">
+      <h1 className="mt-20 text-center md:text-6xl text-4xl font-bold">
         WHAT OTHER'S SAY?
       </h1>
-      <div className="cards-container flex justify-center mt-20">
+      <div className="cards-container flex justify-center flex-wrap mt-20">
         {datas.map((data, index) => (
           <div className="card w-96 h-150 flex flex-col items-center">
             <div key={index} className="image-wrapper w-64 h-56 rounded-full ">

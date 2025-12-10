@@ -53,55 +53,55 @@ export default function Portfolios() {
 
   const datas = [
     {
-      span: 3,
+      span: "lg:col-span-3",
       image: Gd1,
     },
     {
-      span: 5,
+      span: "lg:col-span-5",
       image: Gd2,
     },
     {
-      span: 5,
+      span: "lg:col-span-5",
       image: Gd3,
     },
     {
-      span: 3,
+      span: "lg:col-span-3",
       image: Gd4,
     },
     {
-      span: 3,
+      span: "lg:col-span-3",
       image: Gd5,
     },
     {
-      span: 5,
+      span: "lg:col-span-5",
       image: Gd6,
     },
     {
-      span: 5,
+      span: "lg:col-span-5",
       image: Gd7,
     },
     {
-      span: 3,
+      span: "lg:col-span-3",
       image: Gd8,
     },
     {
-      span: 3,
+      span: "lg:col-span-3",
       image: Gd9,
     },
     {
-      span: 5,
+      span: "lg:col-span-5",
       image: Gd10,
     },
     {
-      span: 5,
+      span: "lg:col-span-5",
       image: Gd11,
     },
     {
-      span: 3,
+      span: "lg:col-span-3",
       image: Gd12,
     },
     {
-      span: 8,
+      span: "lg:col-span-8",
       image: Gd13,
     },
   ];
@@ -114,7 +114,7 @@ export default function Portfolios() {
       <div className="datas-container lg:grid lg:grid-cols-8 flex flex-wrap justify-center gap-7 px-12 mt-12">
         {datas.map((data, index) => (
           <div
-            className={`data-image lg:w-full w-56 h-64 bg-white lg:col-span-${data.span} `}
+            className={`data-image lg:w-full w-56 h-64 bg-white ${data.span} `}
           >
             <Image
               src={data.image}

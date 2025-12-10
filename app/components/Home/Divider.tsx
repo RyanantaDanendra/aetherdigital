@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Divider() {
   useEffect(() => {
-    const texts = gsap.utils.toArray(".divider-text");
+    const texts = gsap.utils.toArray<HTMLElement>(".divider-text");
 
     let tl = gsap.timeline({
       scrollTrigger: {

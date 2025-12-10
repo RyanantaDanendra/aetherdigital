@@ -14,8 +14,12 @@ export default function Hero() {
 
     const leftElement = textLeftRef.current;
     if (!leftElement) return;
-    const leftWidth =
-      leftElement.querySelector(".heading-text-left").offsetWidth;
+    const textLeft =
+      leftElement.querySelector<HTMLElement>(".heading-text-left") || null;
+
+    if (!textLeft) return;
+
+    const leftWidth = textLeft.offsetWidth;
 
     gsap.set(rightElement, { x: -rightWidth });
     gsap.set(leftElement, { x: 0 });

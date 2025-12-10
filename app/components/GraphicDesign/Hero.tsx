@@ -13,6 +13,7 @@ export default function Hero() {
     const rightWidth = rightElement.scrollWidth / 2;
 
     const leftElement = textLeftRef.current;
+    if (!leftElement) return;
     const leftWidth =
       leftElement.querySelector(".heading-text-left").offsetWidth;
 
